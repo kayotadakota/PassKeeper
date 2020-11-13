@@ -93,7 +93,7 @@ while True:
         select = int(input('Choose a number: '))
         print()
 
-        if select == 4:
+        if select == 5:
             exit()
 
         elif select == 1:
