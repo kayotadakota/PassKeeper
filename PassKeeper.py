@@ -124,4 +124,3 @@ while True:
         elif select == 4:
             url = input('Type url of deleting object: ')
             flow.delete_data(url)
-            print()
