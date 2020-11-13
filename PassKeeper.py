@@ -93,7 +93,7 @@ while True:
         select = int(input('Choose a number: '))
         print()
 
-        if select == 4:
+        if select == 5:
             exit()
 
         elif select == 1:
@@ -124,3 +124,4 @@ while True:
         elif select == 4:
             url = input('Type url of deleting object: ')
             flow.delete_data(url)
+            print()
